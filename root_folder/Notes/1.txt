@@ -1,0 +1,17 @@
+* Once you’ve created your app, you need to tell Django to install it into your project.
+
+* To register our app with Django, we need to point to the apps.py file's default class.
+
+* The migrations folder is where Django stores migrations, or changes to your database.
+
+* __init__.py tells Python that your pages app is a package.
+
+* admin.py is where you register your models with the Django admin application.
+
+* apps.py is a configuration file common to all Django apps.
+
+* models.py is where the models for your app are located.
+
+* tests.py contains test procedures that will be run when testing your app.
+
+* And views.py is where the views for your app are located.

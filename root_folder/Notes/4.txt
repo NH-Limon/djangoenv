@@ -1,0 +1,7 @@
+* An administrative interface is a web-based interface, limited to trusted site administrators, that enables an admin to add, edit and delete site content.
+
+* Django comes with a built-in admin—with Django’s admin you can authenticate users, display and handle forms and validate input; all automatically. Django also provides a convenient interface to our models.
+
+* At the top of the django admin's index page is the Authentication and Authorization group with two types of editable content: Groups and Users. They’re provided by the authentication framework included in Django.
+
+* The admin site is designed to be used by non-technical users, and as such it should be self-explanatory. Nevertheless(tobuw), let’s cover a few of the basic features.

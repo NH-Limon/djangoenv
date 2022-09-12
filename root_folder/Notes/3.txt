@@ -1,0 +1,19 @@
+* A Django model is a data object that maps your app’s data to the database without you having to know SQL, or how the underlying database structures your data.
+
+* Each of your app’s models are a class that you create in your app’s models.py file.
+
+* Each of our model fields has a related Django field type and field options. 
+
+* A CharField is a short line of text (up to 255 characters). In our case, the max_length option sets the maximum length of the page title to 60 characters.
+
+* A DateTimeField records a Python datetime object. Many model fields allow you to set a string as the first option for the verbose name of a field. This verbose name is used to create a human-friendly name for the model field.
+
+* And bodytext is a TextField. A TextField is a large text object that can hold many thousands of characters.
+
+* The default for this option is False, so if you didn’t add any page content, Django will throw an error.
+
+* After creating a model in models.py, our next step is to register the model with the admin in the admin.py.
+
+* We need to create a migration for our app, so Django can add the model to the database.
+
+* A database model refers to the logical structure, representation or layout of a database and how the data will be stored, managed and processed within it.

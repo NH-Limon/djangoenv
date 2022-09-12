@@ -1,0 +1,13 @@
+* render() is used when rendering templates.
+
+* HTTP, the communication protocol used by all web browsers, uses request and response objects to pass data to and from your app and the browser. We need a response object to be able to pass view information back to the browser.
+
+* For Django to use your new view, you need to tell Django that this is the view you want displayed when someone navigates to the site root (home page) or any other URLs. We do this by configuring our URLs.
+
+*  Django removes the slash from the end of all URLs.
+
+* Running flow of a django application:
+    * Sending a request for a specific URL to the server.
+    * Validating the url from the root folder's urls.py file
+    * If any specific app's urls.py is included with the root folder's url, then the request go to the app's urls.py file and validate the requested url.
+    * It then sends the request to the view attached to it and then renders HttpResponse object's content to the browser.
